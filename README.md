@@ -1,6 +1,15 @@
 # 検証用サンドボックス
 主にBPを使った実験場です<br/>
 
+  
+## Fake Softbody based on Lattice Deform (WIP)
+疑似的なソフトボディ表現をします (検証中).<br/>
+事前処理不要, Component追加とConstructionScriptでのセットアップだけで最低限動きます.<br/>
+StaticMeshに対して簡易なシミュレーションを実行し, マテリアルWPOで変形します.<br/>
+<img width="1169" height="830" alt="Image" src="https://github.com/user-attachments/assets/3eb76296-2e97-48eb-ac64-95b9e1eef39c" />
+
+
+
 ## Analytic Fog
   reference https://blog.mmacklin.com/2010/05/29/in-scattering-demo/
 
@@ -25,8 +34,3 @@
   |---|---|
   |![](https://github.com/user-attachments/assets/5ab1ca72-15e0-4ee6-b34b-9ddfa7cae645)|![](https://github.com/user-attachments/assets/8f8fa2cb-4301-4d1b-a9fa-cf1883ff574e)|
   
-  
-## Fake Softbody based on Lattice Deform (WIP)
-疑似的なソフトボディ表現をします.<br/>
-StaticMeshに対して簡易なシミュレーションを実行し, マテリアルWPOで変形します<br/>
-<img width="1169" height="830" alt="Image" src="https://github.com/user-attachments/assets/3eb76296-2e97-48eb-ac64-95b9e1eef39c" />
